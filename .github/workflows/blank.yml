@@ -25,5 +25,5 @@ jobs:
       uses: docker/build-push-action@v5.0.0
       with:
         context: .
-        tags: 'latest'
+        tags: 'miltoncamara/fiap-ghactions:latest'
         push: true
