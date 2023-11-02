@@ -10,7 +10,7 @@ on:
 jobs:
   test_job:
     name: Executando o Job de Teste
-    runs-on: self-hosted
+    runs-on: ubuntu-hosted
     steps:
     - name: Step 1
       uses: actions/checkout@v2
